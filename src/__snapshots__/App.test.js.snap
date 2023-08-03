@@ -40,6 +40,28 @@ Object {
                 Marked: 
                 false
               </p>
+              <div
+                class="row justify-content-around"
+              >
+                <div
+                  class="col-md-5"
+                >
+                  <button
+                    class="btn btn-primary w-100 fs-3"
+                  >
+                    +
+                  </button>
+                </div>
+                <div
+                  class="col-md-5"
+                >
+                  <button
+                    class="btn btn-primary w-100 fs-3"
+                  >
+                    -
+                  </button>
+                </div>
+              </div>
             </div>
             <div
               class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
@@ -62,6 +84,28 @@ Object {
                 Marked: 
                 false
               </p>
+              <div
+                class="row justify-content-around"
+              >
+                <div
+                  class="col-md-5"
+                >
+                  <button
+                    class="btn btn-primary w-100 fs-3"
+                  >
+                    +
+                  </button>
+                </div>
+                <div
+                  class="col-md-5"
+                >
+                  <button
+                    class="btn btn-primary w-100 fs-3"
+                  >
+                    -
+                  </button>
+                </div>
+              </div>
             </div>
             <div
               class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
@@ -84,6 +128,28 @@ Object {
                 Marked: 
                 false
               </p>
+              <div
+                class="row justify-content-around"
+              >
+                <div
+                  class="col-md-5"
+                >
+                  <button
+                    class="btn btn-primary w-100 fs-3"
+                  >
+                    +
+                  </button>
+                </div>
+                <div
+                  class="col-md-5"
+                >
+                  <button
+                    class="btn btn-primary w-100 fs-3"
+                  >
+                    -
+                  </button>
+                </div>
+              </div>
             </div>
             <div
               class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
@@ -106,6 +172,28 @@ Object {
                 Marked: 
                 false
               </p>
+              <div
+                class="row justify-content-around"
+              >
+                <div
+                  class="col-md-5"
+                >
+                  <button
+                    class="btn btn-primary w-100 fs-3"
+                  >
+                    +
+                  </button>
+                </div>
+                <div
+                  class="col-md-5"
+                >
+                  <button
+                    class="btn btn-primary w-100 fs-3"
+                  >
+                    -
+                  </button>
+                </div>
+              </div>
             </div>
             <div
               class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
@@ -128,6 +216,28 @@ Object {
                 Marked: 
                 false
               </p>
+              <div
+                class="row justify-content-around"
+              >
+                <div
+                  class="col-md-5"
+                >
+                  <button
+                    class="btn btn-primary w-100 fs-3"
+                  >
+                    +
+                  </button>
+                </div>
+                <div
+                  class="col-md-5"
+                >
+                  <button
+                    class="btn btn-primary w-100 fs-3"
+                  >
+                    -
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -170,6 +280,28 @@ Object {
               Marked: 
               false
             </p>
+            <div
+              class="row justify-content-around"
+            >
+              <div
+                class="col-md-5"
+              >
+                <button
+                  class="btn btn-primary w-100 fs-3"
+                >
+                  +
+                </button>
+              </div>
+              <div
+                class="col-md-5"
+              >
+                <button
+                  class="btn btn-primary w-100 fs-3"
+                >
+                  -
+                </button>
+              </div>
+            </div>
           </div>
           <div
             class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
@@ -192,6 +324,28 @@ Object {
               Marked: 
               false
             </p>
+            <div
+              class="row justify-content-around"
+            >
+              <div
+                class="col-md-5"
+              >
+                <button
+                  class="btn btn-primary w-100 fs-3"
+                >
+                  +
+                </button>
+              </div>
+              <div
+                class="col-md-5"
+              >
+                <button
+                  class="btn btn-primary w-100 fs-3"
+                >
+                  -
+                </button>
+              </div>
+            </div>
           </div>
           <div
             class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
@@ -214,6 +368,28 @@ Object {
               Marked: 
               false
             </p>
+            <div
+              class="row justify-content-around"
+            >
+              <div
+                class="col-md-5"
+              >
+                <button
+                  class="btn btn-primary w-100 fs-3"
+                >
+                  +
+                </button>
+              </div>
+              <div
+                class="col-md-5"
+              >
+                <button
+                  class="btn btn-primary w-100 fs-3"
+                >
+                  -
+                </button>
+              </div>
+            </div>
           </div>
           <div
             class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
@@ -236,6 +412,28 @@ Object {
               Marked: 
               false
             </p>
+            <div
+              class="row justify-content-around"
+            >
+              <div
+                class="col-md-5"
+              >
+                <button
+                  class="btn btn-primary w-100 fs-3"
+                >
+                  +
+                </button>
+              </div>
+              <div
+                class="col-md-5"
+              >
+                <button
+                  class="btn btn-primary w-100 fs-3"
+                >
+                  -
+                </button>
+              </div>
+            </div>
           </div>
           <div
             class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
@@ -258,6 +456,28 @@ Object {
               Marked: 
               false
             </p>
+            <div
+              class="row justify-content-around"
+            >
+              <div
+                class="col-md-5"
+              >
+                <button
+                  class="btn btn-primary w-100 fs-3"
+                >
+                  +
+                </button>
+              </div>
+              <div
+                class="col-md-5"
+              >
+                <button
+                  class="btn btn-primary w-100 fs-3"
+                >
+                  -
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

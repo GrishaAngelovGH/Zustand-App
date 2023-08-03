@@ -11,6 +11,7 @@ const ItemList = () => {
         items.map(v => (
           <Item
             key={v.id}
+            id={v.id}
             title={v.title}
             quantity={v.quantity}
             marked={v.marked}
