@@ -34,6 +34,18 @@ const useStore = create(set => ({
         items: newItems
       })
     })
+  },
+  markItem: id => {
+    set(state => {
+      const newItems = [...state.items]
+      const item = newItems.find(v => v.id === id)
+      item.marked = !item.marked
+
+      return ({
+        ...state,
+        items: newItems
+      })
+    })
   }
 }))
 

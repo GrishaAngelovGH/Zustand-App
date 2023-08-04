@@ -9,7 +9,7 @@ Object {
         class="row g-0 mt-3 justify-content-evenly"
       >
         <div
-          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
+          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
         >
           <p
             class="fw-bold"
@@ -30,7 +30,7 @@ Object {
             false
           </p>
           <div
-            class="row justify-content-around"
+            class="row justify-content-around mt-3"
           >
             <div
               class="col-md-5"
@@ -51,9 +51,22 @@ Object {
               </button>
             </div>
           </div>
+          <div
+            class="row mt-3"
+          >
+            <div
+              class="col-md-12"
+            >
+              <button
+                class="btn btn-primary w-100 fs-3"
+              >
+                Mark
+              </button>
+            </div>
+          </div>
         </div>
         <div
-          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
+          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
         >
           <p
             class="fw-bold"
@@ -74,7 +87,7 @@ Object {
             false
           </p>
           <div
-            class="row justify-content-around"
+            class="row justify-content-around mt-3"
           >
             <div
               class="col-md-5"
@@ -95,9 +108,22 @@ Object {
               </button>
             </div>
           </div>
+          <div
+            class="row mt-3"
+          >
+            <div
+              class="col-md-12"
+            >
+              <button
+                class="btn btn-primary w-100 fs-3"
+              >
+                Mark
+              </button>
+            </div>
+          </div>
         </div>
         <div
-          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
+          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
         >
           <p
             class="fw-bold"
@@ -118,7 +144,7 @@ Object {
             false
           </p>
           <div
-            class="row justify-content-around"
+            class="row justify-content-around mt-3"
           >
             <div
               class="col-md-5"
@@ -139,9 +165,22 @@ Object {
               </button>
             </div>
           </div>
+          <div
+            class="row mt-3"
+          >
+            <div
+              class="col-md-12"
+            >
+              <button
+                class="btn btn-primary w-100 fs-3"
+              >
+                Mark
+              </button>
+            </div>
+          </div>
         </div>
         <div
-          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
+          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
         >
           <p
             class="fw-bold"
@@ -162,7 +201,7 @@ Object {
             false
           </p>
           <div
-            class="row justify-content-around"
+            class="row justify-content-around mt-3"
           >
             <div
               class="col-md-5"
@@ -183,9 +222,22 @@ Object {
               </button>
             </div>
           </div>
+          <div
+            class="row mt-3"
+          >
+            <div
+              class="col-md-12"
+            >
+              <button
+                class="btn btn-primary w-100 fs-3"
+              >
+                Mark
+              </button>
+            </div>
+          </div>
         </div>
         <div
-          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
+          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
         >
           <p
             class="fw-bold"
@@ -206,7 +258,7 @@ Object {
             false
           </p>
           <div
-            class="row justify-content-around"
+            class="row justify-content-around mt-3"
           >
             <div
               class="col-md-5"
@@ -227,6 +279,19 @@ Object {
               </button>
             </div>
           </div>
+          <div
+            class="row mt-3"
+          >
+            <div
+              class="col-md-12"
+            >
+              <button
+                class="btn btn-primary w-100 fs-3"
+              >
+                Mark
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -236,7 +301,7 @@ Object {
       class="row g-0 mt-3 justify-content-evenly"
     >
       <div
-        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
+        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
       >
         <p
           class="fw-bold"
@@ -257,7 +322,7 @@ Object {
           false
         </p>
         <div
-          class="row justify-content-around"
+          class="row justify-content-around mt-3"
         >
           <div
             class="col-md-5"
@@ -278,9 +343,22 @@ Object {
             </button>
           </div>
         </div>
+        <div
+          class="row mt-3"
+        >
+          <div
+            class="col-md-12"
+          >
+            <button
+              class="btn btn-primary w-100 fs-3"
+            >
+              Mark
+            </button>
+          </div>
+        </div>
       </div>
       <div
-        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
+        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
       >
         <p
           class="fw-bold"
@@ -301,7 +379,7 @@ Object {
           false
         </p>
         <div
-          class="row justify-content-around"
+          class="row justify-content-around mt-3"
         >
           <div
             class="col-md-5"
@@ -322,9 +400,22 @@ Object {
             </button>
           </div>
         </div>
+        <div
+          class="row mt-3"
+        >
+          <div
+            class="col-md-12"
+          >
+            <button
+              class="btn btn-primary w-100 fs-3"
+            >
+              Mark
+            </button>
+          </div>
+        </div>
       </div>
       <div
-        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
+        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
       >
         <p
           class="fw-bold"
@@ -345,7 +436,7 @@ Object {
           false
         </p>
         <div
-          class="row justify-content-around"
+          class="row justify-content-around mt-3"
         >
           <div
             class="col-md-5"
@@ -366,9 +457,22 @@ Object {
             </button>
           </div>
         </div>
+        <div
+          class="row mt-3"
+        >
+          <div
+            class="col-md-12"
+          >
+            <button
+              class="btn btn-primary w-100 fs-3"
+            >
+              Mark
+            </button>
+          </div>
+        </div>
       </div>
       <div
-        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
+        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
       >
         <p
           class="fw-bold"
@@ -389,7 +493,7 @@ Object {
           false
         </p>
         <div
-          class="row justify-content-around"
+          class="row justify-content-around mt-3"
         >
           <div
             class="col-md-5"
@@ -410,9 +514,22 @@ Object {
             </button>
           </div>
         </div>
+        <div
+          class="row mt-3"
+        >
+          <div
+            class="col-md-12"
+          >
+            <button
+              class="btn btn-primary w-100 fs-3"
+            >
+              Mark
+            </button>
+          </div>
+        </div>
       </div>
       <div
-        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light"
+        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
       >
         <p
           class="fw-bold"
@@ -433,7 +550,7 @@ Object {
           false
         </p>
         <div
-          class="row justify-content-around"
+          class="row justify-content-around mt-3"
         >
           <div
             class="col-md-5"
@@ -451,6 +568,19 @@ Object {
               class="btn btn-primary w-100 fs-3"
             >
               -
+            </button>
+          </div>
+        </div>
+        <div
+          class="row mt-3"
+        >
+          <div
+            class="col-md-12"
+          >
+            <button
+              class="btn btn-primary w-100 fs-3"
+            >
+              Mark
             </button>
           </div>
         </div>
