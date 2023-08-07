@@ -1,5 +1,6 @@
 import { create } from "zustand"
 import { persist } from 'zustand/middleware'
+import axios from "axios"
 
 const useStore = create(
   persist(
@@ -11,6 +12,7 @@ const useStore = create(
         { id: 4, title: "Item 4", quantity: 0, marked: false },
         { id: 5, title: "Item 5", quantity: 0, marked: false }
       ],
+      itemsStatus: [],
       incrementQty: id => {
         set(state => {
           const newItems = [...state.items]
@@ -49,6 +51,10 @@ const useStore = create(
             items: newItems
           })
         })
+      },
+      fetchItemsStatus: async () => {
+        const { data } = await axios.get("/status")
+        set({ itemsStatus: data })
       }
     }),
     {

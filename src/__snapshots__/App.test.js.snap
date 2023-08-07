@@ -304,6 +304,55 @@ Object {
                 </div>
               </div>
             </div>
+            <div
+              class="row g-0 mt-3 justify-content-evenly text-center"
+            >
+              <div
+                class="col-md-2"
+              >
+                <div
+                  class="bg-success text-white p-2 rounded"
+                >
+                  AVAILABLE
+                </div>
+              </div>
+              <div
+                class="col-md-2"
+              >
+                <div
+                  class="bg-success text-white p-2 rounded"
+                >
+                  AVAILABLE
+                </div>
+              </div>
+              <div
+                class="col-md-2"
+              >
+                <div
+                  class="bg-warning text-white p-2 rounded"
+                >
+                  LIMITED
+                </div>
+              </div>
+              <div
+                class="col-md-2"
+              >
+                <div
+                  class="bg-warning text-white p-2 rounded"
+                >
+                  LIMITED
+                </div>
+              </div>
+              <div
+                class="col-md-2"
+              >
+                <div
+                  class="bg-success text-white p-2 rounded"
+                >
+                  AVAILABLE
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -606,6 +655,55 @@ Object {
                 >
                   Mark
                 </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row g-0 mt-3 justify-content-evenly text-center"
+          >
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="bg-success text-white p-2 rounded"
+              >
+                AVAILABLE
+              </div>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="bg-success text-white p-2 rounded"
+              >
+                AVAILABLE
+              </div>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="bg-warning text-white p-2 rounded"
+              >
+                LIMITED
+              </div>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="bg-warning text-white p-2 rounded"
+              >
+                LIMITED
+              </div>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="bg-success text-white p-2 rounded"
+              >
+                AVAILABLE
               </div>
             </div>
           </div>
