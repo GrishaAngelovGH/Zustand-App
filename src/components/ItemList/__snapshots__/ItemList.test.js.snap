@@ -341,6 +341,11 @@ Object {
               AVAILABLE
             </div>
           </div>
+          <button
+            class="btn btn-danger w-25 mt-3"
+          >
+            Reset
+          </button>
         </div>
       </div>
     </div>
@@ -682,6 +687,11 @@ Object {
             AVAILABLE
           </div>
         </div>
+        <button
+          class="btn btn-danger w-25 mt-3"
+        >
+          Reset
+        </button>
       </div>
     </div>
   </div>,
