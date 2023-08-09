@@ -8,24 +8,28 @@ Object {
       <div
         class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
       >
-        <p
-          class="fw-bold"
+        <ul
+          class="list-group"
         >
-          Title: 
-          Item 1
-        </p>
-        <p
-          class="fw-bold"
-        >
-          Quantity: 
-          10
-        </p>
-        <p
-          class="fw-bold"
-        >
-          Marked: 
-          false
-        </p>
+          <li
+            class="list-group-item fs-4"
+          >
+            Title: 
+            Item 1
+          </li>
+          <li
+            class="list-group-item fs-4"
+          >
+            Quantity: 
+            10
+          </li>
+          <li
+            class="list-group-item fs-4"
+          >
+            Marked: 
+            false
+          </li>
+        </ul>
         <div
           class="row justify-content-around mt-3"
         >
@@ -68,24 +72,28 @@ Object {
     <div
       class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
     >
-      <p
-        class="fw-bold"
+      <ul
+        class="list-group"
       >
-        Title: 
-        Item 1
-      </p>
-      <p
-        class="fw-bold"
-      >
-        Quantity: 
-        10
-      </p>
-      <p
-        class="fw-bold"
-      >
-        Marked: 
-        false
-      </p>
+        <li
+          class="list-group-item fs-4"
+        >
+          Title: 
+          Item 1
+        </li>
+        <li
+          class="list-group-item fs-4"
+        >
+          Quantity: 
+          10
+        </li>
+        <li
+          class="list-group-item fs-4"
+        >
+          Marked: 
+          false
+        </li>
+      </ul>
       <div
         class="row justify-content-around mt-3"
       >

@@ -22,24 +22,28 @@ Object {
             <div
               class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
             >
-              <p
-                class="fw-bold"
+              <ul
+                class="list-group"
               >
-                Title: 
-                Item 1
-              </p>
-              <p
-                class="fw-bold"
-              >
-                Quantity: 
-                0
-              </p>
-              <p
-                class="fw-bold"
-              >
-                Marked: 
-                false
-              </p>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Title: 
+                  Item 1
+                </li>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Quantity: 
+                  0
+                </li>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Marked: 
+                  false
+                </li>
+              </ul>
               <div
                 class="row justify-content-around mt-3"
               >
@@ -79,24 +83,28 @@ Object {
             <div
               class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
             >
-              <p
-                class="fw-bold"
+              <ul
+                class="list-group"
               >
-                Title: 
-                Item 2
-              </p>
-              <p
-                class="fw-bold"
-              >
-                Quantity: 
-                0
-              </p>
-              <p
-                class="fw-bold"
-              >
-                Marked: 
-                false
-              </p>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Title: 
+                  Item 2
+                </li>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Quantity: 
+                  0
+                </li>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Marked: 
+                  false
+                </li>
+              </ul>
               <div
                 class="row justify-content-around mt-3"
               >
@@ -136,24 +144,28 @@ Object {
             <div
               class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
             >
-              <p
-                class="fw-bold"
+              <ul
+                class="list-group"
               >
-                Title: 
-                Item 3
-              </p>
-              <p
-                class="fw-bold"
-              >
-                Quantity: 
-                0
-              </p>
-              <p
-                class="fw-bold"
-              >
-                Marked: 
-                false
-              </p>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Title: 
+                  Item 3
+                </li>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Quantity: 
+                  0
+                </li>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Marked: 
+                  false
+                </li>
+              </ul>
               <div
                 class="row justify-content-around mt-3"
               >
@@ -193,24 +205,28 @@ Object {
             <div
               class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
             >
-              <p
-                class="fw-bold"
+              <ul
+                class="list-group"
               >
-                Title: 
-                Item 4
-              </p>
-              <p
-                class="fw-bold"
-              >
-                Quantity: 
-                0
-              </p>
-              <p
-                class="fw-bold"
-              >
-                Marked: 
-                false
-              </p>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Title: 
+                  Item 4
+                </li>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Quantity: 
+                  0
+                </li>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Marked: 
+                  false
+                </li>
+              </ul>
               <div
                 class="row justify-content-around mt-3"
               >
@@ -250,24 +266,28 @@ Object {
             <div
               class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
             >
-              <p
-                class="fw-bold"
+              <ul
+                class="list-group"
               >
-                Title: 
-                Item 5
-              </p>
-              <p
-                class="fw-bold"
-              >
-                Quantity: 
-                0
-              </p>
-              <p
-                class="fw-bold"
-              >
-                Marked: 
-                false
-              </p>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Title: 
+                  Item 5
+                </li>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Quantity: 
+                  0
+                </li>
+                <li
+                  class="list-group-item fs-4"
+                >
+                  Marked: 
+                  false
+                </li>
+              </ul>
               <div
                 class="row justify-content-around mt-3"
               >
@@ -381,24 +401,28 @@ Object {
           <div
             class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
           >
-            <p
-              class="fw-bold"
+            <ul
+              class="list-group"
             >
-              Title: 
-              Item 1
-            </p>
-            <p
-              class="fw-bold"
-            >
-              Quantity: 
-              0
-            </p>
-            <p
-              class="fw-bold"
-            >
-              Marked: 
-              false
-            </p>
+              <li
+                class="list-group-item fs-4"
+              >
+                Title: 
+                Item 1
+              </li>
+              <li
+                class="list-group-item fs-4"
+              >
+                Quantity: 
+                0
+              </li>
+              <li
+                class="list-group-item fs-4"
+              >
+                Marked: 
+                false
+              </li>
+            </ul>
             <div
               class="row justify-content-around mt-3"
             >
@@ -438,24 +462,28 @@ Object {
           <div
             class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
           >
-            <p
-              class="fw-bold"
+            <ul
+              class="list-group"
             >
-              Title: 
-              Item 2
-            </p>
-            <p
-              class="fw-bold"
-            >
-              Quantity: 
-              0
-            </p>
-            <p
-              class="fw-bold"
-            >
-              Marked: 
-              false
-            </p>
+              <li
+                class="list-group-item fs-4"
+              >
+                Title: 
+                Item 2
+              </li>
+              <li
+                class="list-group-item fs-4"
+              >
+                Quantity: 
+                0
+              </li>
+              <li
+                class="list-group-item fs-4"
+              >
+                Marked: 
+                false
+              </li>
+            </ul>
             <div
               class="row justify-content-around mt-3"
             >
@@ -495,24 +523,28 @@ Object {
           <div
             class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
           >
-            <p
-              class="fw-bold"
+            <ul
+              class="list-group"
             >
-              Title: 
-              Item 3
-            </p>
-            <p
-              class="fw-bold"
-            >
-              Quantity: 
-              0
-            </p>
-            <p
-              class="fw-bold"
-            >
-              Marked: 
-              false
-            </p>
+              <li
+                class="list-group-item fs-4"
+              >
+                Title: 
+                Item 3
+              </li>
+              <li
+                class="list-group-item fs-4"
+              >
+                Quantity: 
+                0
+              </li>
+              <li
+                class="list-group-item fs-4"
+              >
+                Marked: 
+                false
+              </li>
+            </ul>
             <div
               class="row justify-content-around mt-3"
             >
@@ -552,24 +584,28 @@ Object {
           <div
             class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
           >
-            <p
-              class="fw-bold"
+            <ul
+              class="list-group"
             >
-              Title: 
-              Item 4
-            </p>
-            <p
-              class="fw-bold"
-            >
-              Quantity: 
-              0
-            </p>
-            <p
-              class="fw-bold"
-            >
-              Marked: 
-              false
-            </p>
+              <li
+                class="list-group-item fs-4"
+              >
+                Title: 
+                Item 4
+              </li>
+              <li
+                class="list-group-item fs-4"
+              >
+                Quantity: 
+                0
+              </li>
+              <li
+                class="list-group-item fs-4"
+              >
+                Marked: 
+                false
+              </li>
+            </ul>
             <div
               class="row justify-content-around mt-3"
             >
@@ -609,24 +645,28 @@ Object {
           <div
             class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
           >
-            <p
-              class="fw-bold"
+            <ul
+              class="list-group"
             >
-              Title: 
-              Item 5
-            </p>
-            <p
-              class="fw-bold"
-            >
-              Quantity: 
-              0
-            </p>
-            <p
-              class="fw-bold"
-            >
-              Marked: 
-              false
-            </p>
+              <li
+                class="list-group-item fs-4"
+              >
+                Title: 
+                Item 5
+              </li>
+              <li
+                class="list-group-item fs-4"
+              >
+                Quantity: 
+                0
+              </li>
+              <li
+                class="list-group-item fs-4"
+              >
+                Marked: 
+                false
+              </li>
+            </ul>
             <div
               class="row justify-content-around mt-3"
             >

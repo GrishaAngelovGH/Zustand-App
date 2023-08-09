@@ -19,9 +19,11 @@ const Item = ({ id, title, quantity, marked }) => {
 
   return (
     <div className="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center">
-      <p className="fw-bold">Title: {title}</p>
-      <p className="fw-bold">Quantity: {quantity}</p>
-      <p className="fw-bold">Marked: {`${marked}`}</p>
+      <ul className="list-group">
+        <li className="list-group-item fs-4">Title: {title}</li>
+        <li className="list-group-item fs-4">Quantity: {quantity}</li>
+        <li className="list-group-item fs-4">Marked: {`${marked}`}</li>
+      </ul>
 
       <div className="row justify-content-around mt-3">
         <div className="col-md-5">
