@@ -12,7 +12,7 @@ Object {
           class="col-md-12"
         >
           <h1
-            class="text-center"
+            class="text-secondary text-center shadow p-2"
           >
             Zustand App
           </h1>
@@ -371,7 +371,7 @@ Object {
         class="col-md-12"
       >
         <h1
-          class="text-center"
+          class="text-secondary text-center shadow p-2"
         >
           Zustand App
         </h1>
