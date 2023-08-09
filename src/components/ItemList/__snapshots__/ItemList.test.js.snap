@@ -320,7 +320,7 @@ Object {
             class="col-md-2"
           >
             <div
-              class="bg-success text-white p-2 rounded"
+              class="bg-success text-white p-2 rounded fw-bold"
             >
               AVAILABLE
             </div>
@@ -329,7 +329,7 @@ Object {
             class="col-md-2"
           >
             <div
-              class="bg-success text-white p-2 rounded"
+              class="bg-success text-white p-2 rounded fw-bold"
             >
               AVAILABLE
             </div>
@@ -338,7 +338,7 @@ Object {
             class="col-md-2"
           >
             <div
-              class="bg-warning text-white p-2 rounded"
+              class="bg-warning text-white p-2 rounded fw-bold"
             >
               LIMITED
             </div>
@@ -347,7 +347,7 @@ Object {
             class="col-md-2"
           >
             <div
-              class="bg-warning text-white p-2 rounded"
+              class="bg-warning text-white p-2 rounded fw-bold"
             >
               LIMITED
             </div>
@@ -356,13 +356,13 @@ Object {
             class="col-md-2"
           >
             <div
-              class="bg-success text-white p-2 rounded"
+              class="bg-success text-white p-2 rounded fw-bold"
             >
               AVAILABLE
             </div>
           </div>
           <button
-            class="btn btn-danger w-25 mt-3"
+            class="btn btn-danger w-25 mt-3 fw-bold"
           >
             Reset
           </button>
@@ -686,7 +686,7 @@ Object {
           class="col-md-2"
         >
           <div
-            class="bg-success text-white p-2 rounded"
+            class="bg-success text-white p-2 rounded fw-bold"
           >
             AVAILABLE
           </div>
@@ -695,7 +695,7 @@ Object {
           class="col-md-2"
         >
           <div
-            class="bg-success text-white p-2 rounded"
+            class="bg-success text-white p-2 rounded fw-bold"
           >
             AVAILABLE
           </div>
@@ -704,7 +704,7 @@ Object {
           class="col-md-2"
         >
           <div
-            class="bg-warning text-white p-2 rounded"
+            class="bg-warning text-white p-2 rounded fw-bold"
           >
             LIMITED
           </div>
@@ -713,7 +713,7 @@ Object {
           class="col-md-2"
         >
           <div
-            class="bg-warning text-white p-2 rounded"
+            class="bg-warning text-white p-2 rounded fw-bold"
           >
             LIMITED
           </div>
@@ -722,13 +722,13 @@ Object {
           class="col-md-2"
         >
           <div
-            class="bg-success text-white p-2 rounded"
+            class="bg-success text-white p-2 rounded fw-bold"
           >
             AVAILABLE
           </div>
         </div>
         <button
-          class="btn btn-danger w-25 mt-3"
+          class="btn btn-danger w-25 mt-3 fw-bold"
         >
           Reset
         </button>

@@ -47,7 +47,7 @@ const ItemList = () => {
                   </div>
                 ))
               }
-              <button className="btn btn-danger w-25 mt-3" onClick={reset}>Reset</button>
+              <button className="btn btn-danger w-25 mt-3 fw-bold" onClick={reset}>Reset</button>
             </>
           )
         }

@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="bg-success text-white p-2 rounded"
+        class="bg-success text-white p-2 rounded fw-bold"
       >
         AVAILABLE
       </div>
@@ -14,7 +14,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="bg-success text-white p-2 rounded"
+      class="bg-success text-white p-2 rounded fw-bold"
     >
       AVAILABLE
     </div>
@@ -79,7 +79,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="bg-warning text-white p-2 rounded"
+        class="bg-warning text-white p-2 rounded fw-bold"
       >
         LIMITED
       </div>
@@ -87,7 +87,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="bg-warning text-white p-2 rounded"
+      class="bg-warning text-white p-2 rounded fw-bold"
     >
       LIMITED
     </div>
