@@ -12,7 +12,7 @@ const useStore = create(
         { id: 4, title: "Item 4", quantity: 0, marked: false },
         { id: 5, title: "Item 5", quantity: 0, marked: false }
       ],
-      itemsStatus: [],
+      itemsStatus: {},
       incrementQty: id => {
         set(state => {
           const newItems = [...state.items]
@@ -54,10 +54,13 @@ const useStore = create(
       },
       fetchItemsStatus: async () => {
         const { data } = await axios.get("/status")
-        set({ itemsStatus: data })
+
+        const status = data.reduce((a, b) => ({ ...a, [b.id]: b }), {})
+
+        set({ itemsStatus: status })
       },
       reset: () => {
-        set(state => state.itemsStatus = [])
+        set(state => state.itemsStatus = {})
 
         set(state => state.items = [
           { id: 1, title: "Item 1", quantity: 0, marked: false },

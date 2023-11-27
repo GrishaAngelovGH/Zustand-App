@@ -23,13 +23,13 @@ const create = (createState) => {
 
   const newState = {
     ...initialState,
-    itemsStatus: [
-      { id: 1, status: "available" },
-      { id: 2, status: "available" },
-      { id: 3, status: "limited" },
-      { id: 4, status: "limited" },
-      { id: 5, status: "available" }
-    ]
+    itemsStatus: {
+      1: { id: 1, status: "available" },
+      2: { id: 2, status: "available" },
+      3: { id: 3, status: "limited" },
+      4: { id: 4, status: "limited" },
+      5: { id: 5, status: "available" }
+    }
   }
   store.setState(newState, true)
   storeResetFns.add(() => store.setState(newState, true));

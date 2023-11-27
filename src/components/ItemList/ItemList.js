@@ -5,6 +5,8 @@ import useStore from "hooks/useStore"
 import Item from "components/Item"
 import ItemStatus from "components/ItemStatus"
 
+const isEmpty = obj => !Object.keys(obj).length
+
 const ItemList = () => {
   const items = useStore((state) => state.items)
   const itemsStatus = useStore((state) => state.itemsStatus)
@@ -13,7 +15,7 @@ const ItemList = () => {
 
   useEffect(() => {
     fetchItemsStatus()
-  }, [fetchItemsStatus, itemsStatus.length])
+  }, [fetchItemsStatus, itemsStatus])
 
   return (
     <div className="row g-0 mt-3 justify-content-evenly">
@@ -31,19 +33,19 @@ const ItemList = () => {
 
       <div className="row g-0 mt-3 justify-content-evenly text-center">
         {
-          !itemsStatus.length && (
+          isEmpty(itemsStatus) && (
             <div className="spinner-border text-primary" style={{ width: '5rem', height: '5rem' }} role="status">
               <span className="visually-hidden">Loading...</span>
             </div>
           )
         }
         {
-          itemsStatus.length > 0 && (
+          !isEmpty(itemsStatus) && (
             <>
               {
                 items.map(item => (
                   <div key={item.id} className="col-md-2">
-                    <ItemStatus status={itemsStatus.find(itemStatus => itemStatus.id === item.id).status} />
+                    <ItemStatus status={itemsStatus[item.id].status} />
                   </div>
                 ))
               }
