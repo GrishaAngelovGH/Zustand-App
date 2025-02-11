@@ -1,7 +1,8 @@
-# Zustand App
+# React + Vite
 
-This project is hands-on experience with **Zustand** state-management library **(Redux alternative)**
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## The project is using the following technologies:
+Currently, two official plugins are available:
 
-<img src="https://img.shields.io/badge/create--react--app-%23563D7C.svg?style=flat&logo=create-react-app&color=white" height="30"> <img src="https://img.shields.io/badge/React.JS-%23563D7C.svg?style=flat&logo=react&color=white" height="30"> <img src="https://img.shields.io/badge/Axios-%231572B6.svg?style=flat&logo=axios&color=white&logoColor=blue" height="30"> <img src="https://img.shields.io/badge/axios--mock--adapter-%231572B6.svg?style=flat&logo=axios&color=white&logoColor=blue" height="30"> <img src="https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&color=white&logoColor=purple" height="30"> <img src="https://img.shields.io/badge/Zustand-311C87?style=flat&color=white" height="30">
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
