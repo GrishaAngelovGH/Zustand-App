@@ -1,7 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render ItemList component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -317,55 +317,16 @@ Object {
           class="row g-0 mt-3 justify-content-evenly text-center"
         >
           <div
-            class="col-md-2"
+            class="spinner-border text-primary"
+            role="status"
+            style="width: 5rem; height: 5rem;"
           >
-            <div
-              class="bg-success text-white p-2 rounded fw-bold"
+            <span
+              class="visually-hidden"
             >
-              AVAILABLE
-            </div>
+              Loading...
+            </span>
           </div>
-          <div
-            class="col-md-2"
-          >
-            <div
-              class="bg-success text-white p-2 rounded fw-bold"
-            >
-              AVAILABLE
-            </div>
-          </div>
-          <div
-            class="col-md-2"
-          >
-            <div
-              class="bg-warning text-white p-2 rounded fw-bold"
-            >
-              LIMITED
-            </div>
-          </div>
-          <div
-            class="col-md-2"
-          >
-            <div
-              class="bg-warning text-white p-2 rounded fw-bold"
-            >
-              LIMITED
-            </div>
-          </div>
-          <div
-            class="col-md-2"
-          >
-            <div
-              class="bg-success text-white p-2 rounded fw-bold"
-            >
-              AVAILABLE
-            </div>
-          </div>
-          <button
-            class="btn btn-danger w-25 mt-3 fw-bold"
-          >
-            Reset
-          </button>
         </div>
       </div>
     </div>
@@ -683,55 +644,16 @@ Object {
         class="row g-0 mt-3 justify-content-evenly text-center"
       >
         <div
-          class="col-md-2"
+          class="spinner-border text-primary"
+          role="status"
+          style="width: 5rem; height: 5rem;"
         >
-          <div
-            class="bg-success text-white p-2 rounded fw-bold"
+          <span
+            class="visually-hidden"
           >
-            AVAILABLE
-          </div>
+            Loading...
+          </span>
         </div>
-        <div
-          class="col-md-2"
-        >
-          <div
-            class="bg-success text-white p-2 rounded fw-bold"
-          >
-            AVAILABLE
-          </div>
-        </div>
-        <div
-          class="col-md-2"
-        >
-          <div
-            class="bg-warning text-white p-2 rounded fw-bold"
-          >
-            LIMITED
-          </div>
-        </div>
-        <div
-          class="col-md-2"
-        >
-          <div
-            class="bg-warning text-white p-2 rounded fw-bold"
-          >
-            LIMITED
-          </div>
-        </div>
-        <div
-          class="col-md-2"
-        >
-          <div
-            class="bg-success text-white p-2 rounded fw-bold"
-          >
-            AVAILABLE
-          </div>
-        </div>
-        <button
-          class="btn btn-danger w-25 mt-3 fw-bold"
-        >
-          Reset
-        </button>
       </div>
     </div>
   </div>,
