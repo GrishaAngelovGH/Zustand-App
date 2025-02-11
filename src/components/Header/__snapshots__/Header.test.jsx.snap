@@ -6,7 +6,7 @@ exports[`should render Header component 1`] = `
   "baseElement": <body>
     <div>
       <h1
-        class="text-secondary text-center shadow p-2"
+        class="text-gray-500 text-center shadow-md p-2 text-2xl"
       >
         Zustand App
       </h1>
@@ -14,7 +14,7 @@ exports[`should render Header component 1`] = `
   </body>,
   "container": <div>
     <h1
-      class="text-secondary text-center shadow p-2"
+      class="text-gray-500 text-center shadow-md p-2 text-2xl"
     >
       Zustand App
     </h1>

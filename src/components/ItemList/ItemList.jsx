@@ -18,41 +18,45 @@ const ItemList = () => {
   }, [fetchItemsStatus, itemsStatus])
 
   return (
-    <div className="row g-0 mt-3 justify-content-evenly">
-      {
-        items.map(v => (
-          <Item
-            key={v.id}
-            id={v.id}
-            title={v.title}
-            quantity={v.quantity}
-            marked={v.marked}
-          />
-        ))
-      }
+    <div className="flex-1 h-full">
+      <div className="flex-col">
+        <div className="flex mt-3 justify-evenly">
+          {
+            items.map(v => (
+              <Item
+                key={v.id}
+                id={v.id}
+                title={v.title}
+                quantity={v.quantity}
+                marked={v.marked}
+              />
+            ))
+          }
+        </div>
 
-      <div className="row g-0 mt-3 justify-content-evenly text-center">
-        {
-          isEmpty(itemsStatus) && (
-            <div className="spinner-border text-primary" style={{ width: '5rem', height: '5rem' }} role="status">
-              <span className="visually-hidden">Loading...</span>
-            </div>
-          )
-        }
-        {
-          !isEmpty(itemsStatus) && (
-            <>
-              {
-                items.map(item => (
-                  <div key={item.id} className="col-md-2">
-                    <ItemStatus status={itemsStatus[item.id].status} />
-                  </div>
-                ))
-              }
-              <button className="btn btn-danger w-25 mt-3 fw-bold" onClick={reset}>Reset</button>
-            </>
-          )
-        }
+        <div className="flex justify-center mt-5">
+          {
+            isEmpty(itemsStatus) && (
+              <div className="inline-block border-r-transparent rounded-full animate-spin border-4 border-blue-500 w-[5rem] h-[5rem]" role="status">
+                <span className="hidden">Loading...</span>
+              </div>
+            )
+          }
+          {
+            !isEmpty(itemsStatus) && (
+              <div className="flex flex-col gap-5 items-center w-full">
+                <div className="flex justify-around w-full">
+                  {
+                    items.map(item => (
+                      <ItemStatus key={item.id} status={itemsStatus[item.id].status} />
+                    ))
+                  }
+                </div>
+                <button className="bg-red-500 text-white rounded-md w-[100px] mt-3 font-bold cursor-pointer p-2 text-2xl" onClick={reset}>Reset</button>
+              </div>
+            )
+          }
+        </div>
       </div>
     </div>
   )

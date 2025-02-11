@@ -18,41 +18,35 @@ const Item = ({ id, title, quantity, marked }) => {
   }
 
   return (
-    <div className="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center">
-      <ul className="list-group">
-        <li className="list-group-item fs-4">Title: {title}</li>
-        <li className="list-group-item fs-4">Quantity: {quantity}</li>
-        <li className="list-group-item fs-4">Marked: {`${marked}`}</li>
+    <div className="border-3 border-blue-500 rounded-md p-2 shadow text-center">
+      <ul className="bg-white border rounded-md text-2xl text-gray-600">
+        <li className="border-b border-gray-600">Title: {title}</li>
+        <li className="border-b border-gray-600">Quantity: {quantity}</li>
+        <li>Marked: {`${marked}`}</li>
       </ul>
 
-      <div className="row justify-content-around mt-3">
-        <div className="col-md-5">
-          <button
-            className="btn btn-primary w-100 fs-3"
-            onClick={handleIncrement}
-          >
-            +
-          </button>
-        </div>
-        <div className="col-md-5">
-          <button
-            className="btn btn-primary w-100 fs-3"
-            onClick={handleDecrement}
-          >
-            -
-          </button>
-        </div>
+      <div className="flex gap-4 mt-3">
+        <button
+          className="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+          onClick={handleIncrement}
+        >
+          +
+        </button>
+        <button
+          className="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+          onClick={handleDecrement}
+        >
+          -
+        </button>
       </div>
 
-      <div className="row mt-3">
-        <div className="col-md-12">
-          <button
-            className={`btn ${marked ? "btn-info text-white" : "btn-primary"} w-100 fs-3`}
-            onClick={handleMarkItem}
-          >
-            {marked ? "Unmark" : "Mark"}
-          </button>
-        </div>
+      <div className="mt-3">
+        <button
+          className={`text-white rounded-md ${marked ? "bg-blue-400" : "bg-blue-500"} w-[100px] text-2xl cursor-pointer`}
+          onClick={handleMarkItem}
+        >
+          {marked ? "Unmark" : "Mark"}
+        </button>
       </div>
     </div>
   )

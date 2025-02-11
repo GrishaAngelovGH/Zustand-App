@@ -6,326 +6,263 @@ exports[`should render ItemList component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row g-0 mt-3 justify-content-evenly"
+        class="flex-1 h-full"
       >
         <div
-          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
-        >
-          <ul
-            class="list-group"
-          >
-            <li
-              class="list-group-item fs-4"
-            >
-              Title: 
-              Item 1
-            </li>
-            <li
-              class="list-group-item fs-4"
-            >
-              Quantity: 
-              0
-            </li>
-            <li
-              class="list-group-item fs-4"
-            >
-              Marked: 
-              false
-            </li>
-          </ul>
-          <div
-            class="row justify-content-around mt-3"
-          >
-            <div
-              class="col-md-5"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                +
-              </button>
-            </div>
-            <div
-              class="col-md-5"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                -
-              </button>
-            </div>
-          </div>
-          <div
-            class="row mt-3"
-          >
-            <div
-              class="col-md-12"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                Mark
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
-        >
-          <ul
-            class="list-group"
-          >
-            <li
-              class="list-group-item fs-4"
-            >
-              Title: 
-              Item 2
-            </li>
-            <li
-              class="list-group-item fs-4"
-            >
-              Quantity: 
-              0
-            </li>
-            <li
-              class="list-group-item fs-4"
-            >
-              Marked: 
-              false
-            </li>
-          </ul>
-          <div
-            class="row justify-content-around mt-3"
-          >
-            <div
-              class="col-md-5"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                +
-              </button>
-            </div>
-            <div
-              class="col-md-5"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                -
-              </button>
-            </div>
-          </div>
-          <div
-            class="row mt-3"
-          >
-            <div
-              class="col-md-12"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                Mark
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
-        >
-          <ul
-            class="list-group"
-          >
-            <li
-              class="list-group-item fs-4"
-            >
-              Title: 
-              Item 3
-            </li>
-            <li
-              class="list-group-item fs-4"
-            >
-              Quantity: 
-              0
-            </li>
-            <li
-              class="list-group-item fs-4"
-            >
-              Marked: 
-              false
-            </li>
-          </ul>
-          <div
-            class="row justify-content-around mt-3"
-          >
-            <div
-              class="col-md-5"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                +
-              </button>
-            </div>
-            <div
-              class="col-md-5"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                -
-              </button>
-            </div>
-          </div>
-          <div
-            class="row mt-3"
-          >
-            <div
-              class="col-md-12"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                Mark
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
-        >
-          <ul
-            class="list-group"
-          >
-            <li
-              class="list-group-item fs-4"
-            >
-              Title: 
-              Item 4
-            </li>
-            <li
-              class="list-group-item fs-4"
-            >
-              Quantity: 
-              0
-            </li>
-            <li
-              class="list-group-item fs-4"
-            >
-              Marked: 
-              false
-            </li>
-          </ul>
-          <div
-            class="row justify-content-around mt-3"
-          >
-            <div
-              class="col-md-5"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                +
-              </button>
-            </div>
-            <div
-              class="col-md-5"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                -
-              </button>
-            </div>
-          </div>
-          <div
-            class="row mt-3"
-          >
-            <div
-              class="col-md-12"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                Mark
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
-        >
-          <ul
-            class="list-group"
-          >
-            <li
-              class="list-group-item fs-4"
-            >
-              Title: 
-              Item 5
-            </li>
-            <li
-              class="list-group-item fs-4"
-            >
-              Quantity: 
-              0
-            </li>
-            <li
-              class="list-group-item fs-4"
-            >
-              Marked: 
-              false
-            </li>
-          </ul>
-          <div
-            class="row justify-content-around mt-3"
-          >
-            <div
-              class="col-md-5"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                +
-              </button>
-            </div>
-            <div
-              class="col-md-5"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                -
-              </button>
-            </div>
-          </div>
-          <div
-            class="row mt-3"
-          >
-            <div
-              class="col-md-12"
-            >
-              <button
-                class="btn btn-primary w-100 fs-3"
-              >
-                Mark
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="row g-0 mt-3 justify-content-evenly text-center"
+          class="flex-col"
         >
           <div
-            class="spinner-border text-primary"
-            role="status"
-            style="width: 5rem; height: 5rem;"
+            class="flex mt-3 justify-evenly"
           >
-            <span
-              class="visually-hidden"
+            <div
+              class="border-3 border-blue-500 rounded-md p-2 shadow text-center"
             >
-              Loading...
-            </span>
+              <ul
+                class="bg-white border rounded-md text-2xl text-gray-600"
+              >
+                <li
+                  class="border-b border-gray-600"
+                >
+                  Title: 
+                  Item 1
+                </li>
+                <li
+                  class="border-b border-gray-600"
+                >
+                  Quantity: 
+                  0
+                </li>
+                <li>
+                  Marked: 
+                  false
+                </li>
+              </ul>
+              <div
+                class="flex gap-4 mt-3"
+              >
+                <button
+                  class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+                >
+                  +
+                </button>
+                <button
+                  class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+                >
+                  -
+                </button>
+              </div>
+              <div
+                class="mt-3"
+              >
+                <button
+                  class="text-white rounded-md bg-blue-500 w-[100px] text-2xl cursor-pointer"
+                >
+                  Mark
+                </button>
+              </div>
+            </div>
+            <div
+              class="border-3 border-blue-500 rounded-md p-2 shadow text-center"
+            >
+              <ul
+                class="bg-white border rounded-md text-2xl text-gray-600"
+              >
+                <li
+                  class="border-b border-gray-600"
+                >
+                  Title: 
+                  Item 2
+                </li>
+                <li
+                  class="border-b border-gray-600"
+                >
+                  Quantity: 
+                  0
+                </li>
+                <li>
+                  Marked: 
+                  false
+                </li>
+              </ul>
+              <div
+                class="flex gap-4 mt-3"
+              >
+                <button
+                  class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+                >
+                  +
+                </button>
+                <button
+                  class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+                >
+                  -
+                </button>
+              </div>
+              <div
+                class="mt-3"
+              >
+                <button
+                  class="text-white rounded-md bg-blue-500 w-[100px] text-2xl cursor-pointer"
+                >
+                  Mark
+                </button>
+              </div>
+            </div>
+            <div
+              class="border-3 border-blue-500 rounded-md p-2 shadow text-center"
+            >
+              <ul
+                class="bg-white border rounded-md text-2xl text-gray-600"
+              >
+                <li
+                  class="border-b border-gray-600"
+                >
+                  Title: 
+                  Item 3
+                </li>
+                <li
+                  class="border-b border-gray-600"
+                >
+                  Quantity: 
+                  0
+                </li>
+                <li>
+                  Marked: 
+                  false
+                </li>
+              </ul>
+              <div
+                class="flex gap-4 mt-3"
+              >
+                <button
+                  class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+                >
+                  +
+                </button>
+                <button
+                  class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+                >
+                  -
+                </button>
+              </div>
+              <div
+                class="mt-3"
+              >
+                <button
+                  class="text-white rounded-md bg-blue-500 w-[100px] text-2xl cursor-pointer"
+                >
+                  Mark
+                </button>
+              </div>
+            </div>
+            <div
+              class="border-3 border-blue-500 rounded-md p-2 shadow text-center"
+            >
+              <ul
+                class="bg-white border rounded-md text-2xl text-gray-600"
+              >
+                <li
+                  class="border-b border-gray-600"
+                >
+                  Title: 
+                  Item 4
+                </li>
+                <li
+                  class="border-b border-gray-600"
+                >
+                  Quantity: 
+                  0
+                </li>
+                <li>
+                  Marked: 
+                  false
+                </li>
+              </ul>
+              <div
+                class="flex gap-4 mt-3"
+              >
+                <button
+                  class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+                >
+                  +
+                </button>
+                <button
+                  class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+                >
+                  -
+                </button>
+              </div>
+              <div
+                class="mt-3"
+              >
+                <button
+                  class="text-white rounded-md bg-blue-500 w-[100px] text-2xl cursor-pointer"
+                >
+                  Mark
+                </button>
+              </div>
+            </div>
+            <div
+              class="border-3 border-blue-500 rounded-md p-2 shadow text-center"
+            >
+              <ul
+                class="bg-white border rounded-md text-2xl text-gray-600"
+              >
+                <li
+                  class="border-b border-gray-600"
+                >
+                  Title: 
+                  Item 5
+                </li>
+                <li
+                  class="border-b border-gray-600"
+                >
+                  Quantity: 
+                  0
+                </li>
+                <li>
+                  Marked: 
+                  false
+                </li>
+              </ul>
+              <div
+                class="flex gap-4 mt-3"
+              >
+                <button
+                  class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+                >
+                  +
+                </button>
+                <button
+                  class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+                >
+                  -
+                </button>
+              </div>
+              <div
+                class="mt-3"
+              >
+                <button
+                  class="text-white rounded-md bg-blue-500 w-[100px] text-2xl cursor-pointer"
+                >
+                  Mark
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex justify-center mt-5"
+          >
+            <div
+              class="inline-block border-r-transparent rounded-full animate-spin border-4 border-blue-500 w-[5rem] h-[5rem]"
+              role="status"
+            >
+              <span
+                class="hidden"
+              >
+                Loading...
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -333,326 +270,263 @@ exports[`should render ItemList component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row g-0 mt-3 justify-content-evenly"
+      class="flex-1 h-full"
     >
       <div
-        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
-      >
-        <ul
-          class="list-group"
-        >
-          <li
-            class="list-group-item fs-4"
-          >
-            Title: 
-            Item 1
-          </li>
-          <li
-            class="list-group-item fs-4"
-          >
-            Quantity: 
-            0
-          </li>
-          <li
-            class="list-group-item fs-4"
-          >
-            Marked: 
-            false
-          </li>
-        </ul>
-        <div
-          class="row justify-content-around mt-3"
-        >
-          <div
-            class="col-md-5"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              +
-            </button>
-          </div>
-          <div
-            class="col-md-5"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              -
-            </button>
-          </div>
-        </div>
-        <div
-          class="row mt-3"
-        >
-          <div
-            class="col-md-12"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              Mark
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
-      >
-        <ul
-          class="list-group"
-        >
-          <li
-            class="list-group-item fs-4"
-          >
-            Title: 
-            Item 2
-          </li>
-          <li
-            class="list-group-item fs-4"
-          >
-            Quantity: 
-            0
-          </li>
-          <li
-            class="list-group-item fs-4"
-          >
-            Marked: 
-            false
-          </li>
-        </ul>
-        <div
-          class="row justify-content-around mt-3"
-        >
-          <div
-            class="col-md-5"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              +
-            </button>
-          </div>
-          <div
-            class="col-md-5"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              -
-            </button>
-          </div>
-        </div>
-        <div
-          class="row mt-3"
-        >
-          <div
-            class="col-md-12"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              Mark
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
-      >
-        <ul
-          class="list-group"
-        >
-          <li
-            class="list-group-item fs-4"
-          >
-            Title: 
-            Item 3
-          </li>
-          <li
-            class="list-group-item fs-4"
-          >
-            Quantity: 
-            0
-          </li>
-          <li
-            class="list-group-item fs-4"
-          >
-            Marked: 
-            false
-          </li>
-        </ul>
-        <div
-          class="row justify-content-around mt-3"
-        >
-          <div
-            class="col-md-5"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              +
-            </button>
-          </div>
-          <div
-            class="col-md-5"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              -
-            </button>
-          </div>
-        </div>
-        <div
-          class="row mt-3"
-        >
-          <div
-            class="col-md-12"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              Mark
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
-      >
-        <ul
-          class="list-group"
-        >
-          <li
-            class="list-group-item fs-4"
-          >
-            Title: 
-            Item 4
-          </li>
-          <li
-            class="list-group-item fs-4"
-          >
-            Quantity: 
-            0
-          </li>
-          <li
-            class="list-group-item fs-4"
-          >
-            Marked: 
-            false
-          </li>
-        </ul>
-        <div
-          class="row justify-content-around mt-3"
-        >
-          <div
-            class="col-md-5"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              +
-            </button>
-          </div>
-          <div
-            class="col-md-5"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              -
-            </button>
-          </div>
-        </div>
-        <div
-          class="row mt-3"
-        >
-          <div
-            class="col-md-12"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              Mark
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="col-md-2 border border-3 border-primary rounded p-2 shadow bg-light text-center"
-      >
-        <ul
-          class="list-group"
-        >
-          <li
-            class="list-group-item fs-4"
-          >
-            Title: 
-            Item 5
-          </li>
-          <li
-            class="list-group-item fs-4"
-          >
-            Quantity: 
-            0
-          </li>
-          <li
-            class="list-group-item fs-4"
-          >
-            Marked: 
-            false
-          </li>
-        </ul>
-        <div
-          class="row justify-content-around mt-3"
-        >
-          <div
-            class="col-md-5"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              +
-            </button>
-          </div>
-          <div
-            class="col-md-5"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              -
-            </button>
-          </div>
-        </div>
-        <div
-          class="row mt-3"
-        >
-          <div
-            class="col-md-12"
-          >
-            <button
-              class="btn btn-primary w-100 fs-3"
-            >
-              Mark
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="row g-0 mt-3 justify-content-evenly text-center"
+        class="flex-col"
       >
         <div
-          class="spinner-border text-primary"
-          role="status"
-          style="width: 5rem; height: 5rem;"
+          class="flex mt-3 justify-evenly"
         >
-          <span
-            class="visually-hidden"
+          <div
+            class="border-3 border-blue-500 rounded-md p-2 shadow text-center"
           >
-            Loading...
-          </span>
+            <ul
+              class="bg-white border rounded-md text-2xl text-gray-600"
+            >
+              <li
+                class="border-b border-gray-600"
+              >
+                Title: 
+                Item 1
+              </li>
+              <li
+                class="border-b border-gray-600"
+              >
+                Quantity: 
+                0
+              </li>
+              <li>
+                Marked: 
+                false
+              </li>
+            </ul>
+            <div
+              class="flex gap-4 mt-3"
+            >
+              <button
+                class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+              >
+                +
+              </button>
+              <button
+                class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+              >
+                -
+              </button>
+            </div>
+            <div
+              class="mt-3"
+            >
+              <button
+                class="text-white rounded-md bg-blue-500 w-[100px] text-2xl cursor-pointer"
+              >
+                Mark
+              </button>
+            </div>
+          </div>
+          <div
+            class="border-3 border-blue-500 rounded-md p-2 shadow text-center"
+          >
+            <ul
+              class="bg-white border rounded-md text-2xl text-gray-600"
+            >
+              <li
+                class="border-b border-gray-600"
+              >
+                Title: 
+                Item 2
+              </li>
+              <li
+                class="border-b border-gray-600"
+              >
+                Quantity: 
+                0
+              </li>
+              <li>
+                Marked: 
+                false
+              </li>
+            </ul>
+            <div
+              class="flex gap-4 mt-3"
+            >
+              <button
+                class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+              >
+                +
+              </button>
+              <button
+                class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+              >
+                -
+              </button>
+            </div>
+            <div
+              class="mt-3"
+            >
+              <button
+                class="text-white rounded-md bg-blue-500 w-[100px] text-2xl cursor-pointer"
+              >
+                Mark
+              </button>
+            </div>
+          </div>
+          <div
+            class="border-3 border-blue-500 rounded-md p-2 shadow text-center"
+          >
+            <ul
+              class="bg-white border rounded-md text-2xl text-gray-600"
+            >
+              <li
+                class="border-b border-gray-600"
+              >
+                Title: 
+                Item 3
+              </li>
+              <li
+                class="border-b border-gray-600"
+              >
+                Quantity: 
+                0
+              </li>
+              <li>
+                Marked: 
+                false
+              </li>
+            </ul>
+            <div
+              class="flex gap-4 mt-3"
+            >
+              <button
+                class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+              >
+                +
+              </button>
+              <button
+                class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+              >
+                -
+              </button>
+            </div>
+            <div
+              class="mt-3"
+            >
+              <button
+                class="text-white rounded-md bg-blue-500 w-[100px] text-2xl cursor-pointer"
+              >
+                Mark
+              </button>
+            </div>
+          </div>
+          <div
+            class="border-3 border-blue-500 rounded-md p-2 shadow text-center"
+          >
+            <ul
+              class="bg-white border rounded-md text-2xl text-gray-600"
+            >
+              <li
+                class="border-b border-gray-600"
+              >
+                Title: 
+                Item 4
+              </li>
+              <li
+                class="border-b border-gray-600"
+              >
+                Quantity: 
+                0
+              </li>
+              <li>
+                Marked: 
+                false
+              </li>
+            </ul>
+            <div
+              class="flex gap-4 mt-3"
+            >
+              <button
+                class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+              >
+                +
+              </button>
+              <button
+                class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+              >
+                -
+              </button>
+            </div>
+            <div
+              class="mt-3"
+            >
+              <button
+                class="text-white rounded-md bg-blue-500 w-[100px] text-2xl cursor-pointer"
+              >
+                Mark
+              </button>
+            </div>
+          </div>
+          <div
+            class="border-3 border-blue-500 rounded-md p-2 shadow text-center"
+          >
+            <ul
+              class="bg-white border rounded-md text-2xl text-gray-600"
+            >
+              <li
+                class="border-b border-gray-600"
+              >
+                Title: 
+                Item 5
+              </li>
+              <li
+                class="border-b border-gray-600"
+              >
+                Quantity: 
+                0
+              </li>
+              <li>
+                Marked: 
+                false
+              </li>
+            </ul>
+            <div
+              class="flex gap-4 mt-3"
+            >
+              <button
+                class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+              >
+                +
+              </button>
+              <button
+                class="bg-blue-500 text-white text-2xl rounded-md w-[100px] cursor-pointer"
+              >
+                -
+              </button>
+            </div>
+            <div
+              class="mt-3"
+            >
+              <button
+                class="text-white rounded-md bg-blue-500 w-[100px] text-2xl cursor-pointer"
+              >
+                Mark
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex justify-center mt-5"
+        >
+          <div
+            class="inline-block border-r-transparent rounded-full animate-spin border-4 border-blue-500 w-[5rem] h-[5rem]"
+            role="status"
+          >
+            <span
+              class="hidden"
+            >
+              Loading...
+            </span>
+          </div>
         </div>
       </div>
     </div>

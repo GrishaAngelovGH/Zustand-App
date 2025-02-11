@@ -1,6 +1,6 @@
 const statuses = {
-  available: 'bg-success text-white p-2 rounded fw-bold',
-  limited: 'bg-warning text-white p-2 rounded fw-bold'
+  available: 'bg-green-600 text-white p-2 rounded-md font-bold',
+  limited: 'bg-red-500 text-white p-2 rounded-md font-bold'
 }
 
 const ItemStatus = ({ status }) => (

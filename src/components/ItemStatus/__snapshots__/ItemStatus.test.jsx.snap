@@ -6,7 +6,7 @@ exports[`should render available ItemStatus component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="bg-success text-white p-2 rounded fw-bold"
+        class="bg-green-600 text-white p-2 rounded-md font-bold"
       >
         AVAILABLE
       </div>
@@ -14,7 +14,7 @@ exports[`should render available ItemStatus component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="bg-success text-white p-2 rounded fw-bold"
+      class="bg-green-600 text-white p-2 rounded-md font-bold"
     >
       AVAILABLE
     </div>
@@ -79,7 +79,7 @@ exports[`should render limited ItemStatus component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="bg-warning text-white p-2 rounded fw-bold"
+        class="bg-red-500 text-white p-2 rounded-md font-bold"
       >
         LIMITED
       </div>
@@ -87,7 +87,7 @@ exports[`should render limited ItemStatus component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="bg-warning text-white p-2 rounded fw-bold"
+      class="bg-red-500 text-white p-2 rounded-md font-bold"
     >
       LIMITED
     </div>
